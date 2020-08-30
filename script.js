@@ -5,7 +5,7 @@ Celsius is 273 degrees less than Kelvin
 */
 
 //today's temperature in kelvin
-const kelvin = 293;
+const kelvin = 350;
 
 //convert Kelvin to Celsius
 const celsius = kelvin - 293;
