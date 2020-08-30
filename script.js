@@ -16,3 +16,7 @@ let fahrenheit = celsius * (9/5) + 32;
 //round down the Fahrenheit temperature
 fahrenheit = Math.floor(fahrenheit);
 
+//log the results
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+console.log(`The temperature is ${celsius} degrees Celius.`);
+console.log(`The temperature is ${kelvin} degrees Kelvin.`);
