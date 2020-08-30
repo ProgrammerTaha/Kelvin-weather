@@ -5,18 +5,19 @@ Celsius is 273 degrees less than Kelvin
 */
 
 //today's temperature in kelvin
-const kelvin = 0;
+const kelvin = 293;
 
 //convert Kelvin to Celsius
 const celsius = kelvin - 293;
 
-//calculate Fahrenheit from celsius and kelvin
-let fahrenheit = celsius * (9/5) + 32;
+//calculate Fahrenheit from celsius and kelvin and round down it
+let fahrenheit = Math.floor(celsius * (9/5) + 32);
 
-//round down the Fahrenheit temperature
-fahrenheit = Math.floor(fahrenheit);
+//calculate newton from celsius and round down it
+let newton = Math.floor(celsius * (33/100));
 
 //log the results
 console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
 console.log(`The temperature is ${celsius} degrees Celius.`);
 console.log(`The temperature is ${kelvin} degrees Kelvin.`);
+console.log(`The temperature is ${newton} degrees Newton.`);
