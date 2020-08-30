@@ -12,3 +12,7 @@ const celsius = kelvin - 293;
 
 //calculate Fahrenheit from celsius and kelvin
 let fahrenheit = celsius * (9/5) + 32;
+
+//round down the Fahrenheit temperature
+fahrenheit = Math.floor(fahrenheit);
+
